@@ -103,10 +103,10 @@ const Home = () => {
 						View Work
 						<span className="group-hover:rotate-90 duration-300"></span>
 					</button>
-					<button className={darkMode ? "rounded-lg text-[#ccd6f6] group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600" : "rounded-lg text-[#0a192f] group border-pink-600 border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600"}>
+					{/*<button className={darkMode ? "rounded-lg text-[#ccd6f6] group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600" : "rounded-lg text-[#0a192f] group border-pink-600 border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600"}>
 						My CV
 						<span className="group-hover:rotate-90 duration-300"></span>
-					</button>
+				</button>*/}
 				</div>
 			</div>
 		</div>
