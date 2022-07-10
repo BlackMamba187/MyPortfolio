@@ -2,7 +2,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { Link } from "react-router-dom";
 import { useRecoilValue } from "recoil";
 import { DarkMode } from "../../Recoil/Atoms";
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 
 const Footer = () => {
@@ -23,8 +23,16 @@ const Footer = () => {
 			</div>
 
 			<ul className="hidden md:flex">
-				<li className="p-4">
+				<li className="p-4 flex flex-row">
 					<a
+					className="p-2"
+						href="https://github.com/BlackMamba187"
+						type="button"
+					>
+						<FaGithub size={50} color={darkMode ? "#ccd6f6" : "#0a192f"}/>
+					</a>
+					<a
+					className="p-2"
 						href="https://www.linkedin.com/in/perry-matovu-5ab226221/"
 						type="button"
 					>

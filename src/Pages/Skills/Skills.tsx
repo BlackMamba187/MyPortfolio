@@ -32,19 +32,9 @@ const CurrentSkills = [
 		link: "https://www.w3schools.com/js/default.asp",
 	},
 	{
-		name: "HTML",
-		icon: <FaHtml5 size={100} color="#F06529" />,
-		link: "https://www.w3schools.com/html/",
-	},
-	{
 		name: "React Native",
 		icon: <FaReact size={100} color="#61dbfb" />,
 		link: "https://reactnative.dev/cs",
-	},
-	{
-		name: "CSS",
-		icon: <FaCss3Alt size={100} color="#13a1df" />,
-		link: "https://www.w3schools.com/Css/",
 	},
 	{
 		name: "TailwindCSS",

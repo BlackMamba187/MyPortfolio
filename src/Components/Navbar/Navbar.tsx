@@ -55,9 +55,9 @@ const Navbar = () => {
 				<li className={darkMode ? "text-[#ccd6f6] p-4" : "text-[#0a192f] p-4"}>
 					<Link to="/skills">Skills</Link>
 				</li>
-				<li className={darkMode ? "text-[#ccd6f6] p-4" : "text-[#0a192f] p-4"}>
+				{/*<li className={darkMode ? "text-[#ccd6f6] p-4" : "text-[#0a192f] p-4"}>
 					<Link to="/contact">Contact</Link>
-				</li>
+				</li>*/}
 			</ul>
 
 			{/* Hamburger*/}
