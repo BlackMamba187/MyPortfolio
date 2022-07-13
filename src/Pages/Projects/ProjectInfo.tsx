@@ -75,6 +75,20 @@ const ProjectInfo = () => {
 									</p>
 								</div>
 							);
+							case "11":
+							return (
+								<div>
+									<p
+										className={
+											darkMode
+												? "text-2xl font-bold text-[#ccd6f6]"
+												: "text-2xl font-bold text-[#0a192f]"
+										}
+									>
+										My Biochemisty Project
+									</p>
+								</div>
+							);
 						default:
 							return (
 								<div>

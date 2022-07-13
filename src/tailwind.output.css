@@ -2756,12 +2756,12 @@ body[dir="rtl"] .checkbox:checked,
   padding: 1rem;
 }
 
-.p-5 {
-  padding: 1.25rem;
-}
-
 .p-2 {
   padding: 0.5rem;
+}
+
+.p-5 {
+  padding: 1.25rem;
 }
 
 .p-6 {

@@ -23,10 +23,17 @@ const CompletedProjects = [
 const UpcomingProjects = [
 	{
 		id: 10,
-		name: "Indie Game",
+		name: "Pokemon style RPG Game",
+		pic: "minivan",
+		tech1: "PixiJS",
+		tech2: "AWS",
+	},
+	{
+		id: 11,
+		name: "Health & Fitness Website",
 		pic: "minivan",
 		tech1: "Reactjs",
-		tech2: "AWS",
+		tech2: "Firebase",
 	},
 ];
 

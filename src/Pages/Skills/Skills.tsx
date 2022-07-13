@@ -5,16 +5,11 @@ import PixiJS from "../../Data/Icons/PixiJS.png";
 import Python from "../../Data/Icons/Python.png";
 import Svelte from "../../Data/Icons/Svelte.png";
 import Vuejs from "../../Data/Icons/Vuejs.png";
-import MongoDB from "../../Data/Icons/MongoDB.png";
 import Graphql from "../../Data/Icons/Graphql.png";
-
 import {
 	FaReact,
 	FaJs,
-	FaHtml5,
-	FaCss3Alt,
 	FaAws,
-	FaUnity,
 } from "react-icons/fa";
 import FlatList from "flatlist-react";
 import { useRecoilValue } from "recoil";
@@ -53,19 +48,12 @@ const CurrentSkills = [
 	},
 	{
 		name: "GraphQL",
-		icon: <img src={Graphql} width="100" />,
+		icon: <img src={Graphql} width="90" />,
 		link: "https://graphql.org/",
 	},
-
-
 ];
 
 const UpcomingSkills = [
-	{
-		name: "Unity",
-		icon: <FaUnity size={100} color="#000000" />,
-		link: "https://unity.com/",
-	},
 	{
 		name: "PixiJS",
 		icon: <img src={PixiJS} width="100" />,
@@ -85,11 +73,6 @@ const UpcomingSkills = [
 		name: "Vuejs",
 		icon: <img src={Vuejs} width="100" />,
 		link: "https://vuejs.org/",
-	},
-	{
-		name: "MongoDB",
-		icon: <img src={MongoDB} width="100" />,
-		link: "https://www.mongodb.com/",
 	},
 ];
 const RenderUpcomingSkills = (Uskill: any, idx: number) => {
@@ -144,7 +127,16 @@ const Skills = () => {
 				<div className="overflow-auto scrollbar-hide py-5 ">
 					<div className="py-2"></div>
 					<div className="self-center mt-20">
-						<p className=" text-2xl font-bold text-white"> Pro Skils</p>
+						<p
+							className={
+								darkMode
+									? "text-2xl font-bold text-[#ccd6f6]"
+									: "text-2xl font-bold text-[#0a192f]"
+							}
+						>
+							{" "}
+							Professional Skils
+						</p>
 					</div>
 					<div className="py-5 "></div>
 
@@ -160,8 +152,13 @@ const Skills = () => {
 					<div></div>
 					<div className="py-5"></div>
 					<div className="self-center mt-20">
-						<p className=" text-2xl font-bold text-white">
-							{" "}
+						<p
+							className={
+								darkMode
+									? "text-2xl font-bold text-[#ccd6f6]"
+									: "text-2xl font-bold text-[#0a192f]"
+							}
+						>
 							Things I want to work on
 						</p>
 					</div>
@@ -177,6 +174,7 @@ const Skills = () => {
 							/>
 						</ul>
 					</div>
+					<div className="py-10 "></div>
 					<div className="py-5 "></div>
 				</div>
 			</div>

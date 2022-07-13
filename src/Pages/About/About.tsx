@@ -107,6 +107,7 @@ const About = () => {
 						<Goals />
 					</div>
 					<div className="divider py-5"></div>
+					<div className=" py-5"></div>
 				</div>
 			</div>
 		</div>
